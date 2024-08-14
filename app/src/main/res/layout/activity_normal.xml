@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="30dp"
+        android:text="Enter the triangle!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextX1"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:hint="X1"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextY1"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="25dp"
+        android:hint="Y1"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextX1"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextZ1"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="25dp"
+        android:hint="Z1"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextY1"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextX2"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:hint="X2"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextX1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextY2"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:hint="Y2"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextX2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextY1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextZ2"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:hint="Z2"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextY2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextZ1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextX3"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:hint="X3"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextX2" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextY3"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:hint="Y3"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextX3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextY2" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextZ3"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:hint="Z3"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextY3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextZ2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="30dp"
+        android:text="Enter the normal!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextY3" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextNX1"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:hint="NX1"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextNY1"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="25dp"
+        android:hint="NY1"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextNX1"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextNZ1"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="25dp"
+        android:hint="NZ1"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextNY1"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextNX2"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:hint="NX2"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNX1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextNY2"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:hint="NY2"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextNX2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNY1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextNZ2"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:hint="NZ2"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextNY2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNZ1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextNX3"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:hint="NX3"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNX2" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextNY3"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:hint="NY3"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextNX3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNY2" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextNZ3"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:hint="NZ3"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextNY3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNZ2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="30dp"
+        android:text="Enter the ray!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNY3" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextRayX0"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:hint="X0"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextRayY0"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="25dp"
+        android:hint="Y0"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextRayX0"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextRayZ0"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="25dp"
+        android:hint="Z0"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextRayY0"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextRayXd"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:hint="XD"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextRayX0" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextRayYd"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:hint="YD"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextRayXd"
+        app:layout_constraintTop_toBottomOf="@+id/editTextRayY0" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextRayZd"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:hint="ZD"
+        android:inputType="numberDecimal|numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/editTextRayYd"
+        app:layout_constraintTop_toBottomOf="@+id/editTextRayZ0" />
+
+    <Button
+        android:id="@+id/buttonNorDraw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="40dp"
+        android:text="Draw"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextRayYd" />
+</androidx.constraintlayout.widget.ConstraintLayout>
